@@ -1,0 +1,63 @@
+body{
+    background-repeat: no-repeat;
+   
+}
+
+.nav{
+    float: right;
+    margin-top: -70px;
+
+    
+}
+a{
+    text-decoration: none;
+    color: white;
+    padding: 5px 20px;
+    border: 1px solid #fff transparent;
+    transition: 0.6s ease;
+
+
+}
+
+
+a:hover{
+    background-color: whitesmoke;
+    color: black;
+
+}
+
+.logo img{
+    width: 150px;
+    height: 50px;
+
+}
+.title{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: 50px;
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color:wheat;
+    text-shadow: 50%;
+}
+.button{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    font-size: xx-large;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    color: white;
+    margin-top: 65px; 
+
+    padding: 5px 20px;
+    transition: 0.6s ease;
+}
+.btn{
+    border: 1px solid #fff;
+    padding: 10px 30px;
+    color: white;
+    
+}
